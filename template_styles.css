@@ -1,0 +1,237 @@
+﻿/*normalize style*/
+/*! normalize.css v1.1.0 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.67em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+
+/*styles*/
+*{box-sizing:border-box}
+a,img{outline:none!important}
+img{border-style:none;border-width:0}
+html,body{width:100%;height:100%}
+html{background:#fff}
+body *{outline:none!important}
+body{font-size:16px;color:#333;font-family: "Montserrat", serif;font-weight:400;margin:0;padding:0; display:flex;flex-direction:column}
+
+a{color:#FF5338;text-decoration: underline}
+a:hover{text-decoration: none}
+
+h1{}
+h2{}
+h3{}
+h4{}
+
+p{margin-bottom:25px;margin-top:20px;line-height:25px}
+
+ul{margin:20px 0 45px 12px;padding:0 0 0 18px;}
+li{margin:0 0 5px;padding:0;line-height:30px;}
+
+table{border-collapse:collapse;width:100%;margin:30px 0 30px 0}
+table th{padding:10px;border:1px solid #ccc;background:#f2f2f2}
+table td{padding:10px;border:1px solid #ccc}
+body:first-of-type input[type=text],body:first-of-type input[type=password]{line-height:normal}
+
+.main{overflow:hidden;min-width:300px;flex:1 0 auto}
+.wr-header{position:fixed;top:0;left:0;width:100%;z-index:99;background:#fff;border-bottom:1px solid #efefef}
+header{position:relative;max-width:1230px;padding:0 15px 0 15px;margin:0 auto;display:flex;align-items:center;min-height:83px}
+.rsp{height:83px}
+
+
+.logo{}
+.logo img{}
+.search_header{}
+.search_header form{}
+.field-search_header{}
+.field-search_header input{}
+.but-search_header{}
+.but-search_header button{}
+.menu_header{}
+.menu_header ul{}
+.menu_header ul li{}
+.menu_header ul li a{}
+.soc_header{}
+.soc_header ul{}
+.soc_header ul li{}
+.soc_header ul li a{}
+.phone_header{}
+.phone_header a{}
+.favorite_header{}
+.favorite_header a{}
+.cab_header{}
+.cab_header a{}
+.block-top_main{}
+.about-top_main{}
+.about-top_main p{}
+.about-top_main b{}
+.but-view_events{}
+.but-view_events a{}
+.block-nums_main{}
+.list-nums_main{}
+.item-nums_main{}
+.item-nums_main i{}
+.item-nums_main p{}
+.block-staff_main{}
+.left-staff_main{}
+.list-staff_main{}
+.item-staff_main{}
+.ava-staff_main{}
+.ava-staff_main img{}
+.item-staff_main p{}
+.decor-staff_main{}
+.in-decor-staff_main{}
+.in-decor-staff_main img{}
+.block-info_main{}
+.block-expert_main{}
+.tit-small_main{}
+.slider-expert_main{}
+.slider-expert_main .slide{}
+.in-slide-expert_main{}
+.img-expert_main{}
+.img-expert_main img{}
+.die-expert_main{}
+.die-expert_main p{}
+.name-expert_main{}
+.block-online_main{}
+.tit-small_main{}
+.video-online_main{}
+.in-video-online_main{}
+.in-video-online_main img{}
+.but-more_red{}
+.but-more_red a{}
+
+.block-events_main{}
+.head-events_main{}
+.left-head_main{}
+.left-head_main .title{}
+.more-but-title{}
+.more-but-title a{}
+.panel-sort-events{}
+.list-sort_main{}
+.link-sort_panel{}
+.link-sort_panel a{}
+.select-sort_panel{}
+.select-sort_panel select{}
+.check-sort_panel{}
+input{}
+label{}
+.list-events_main{}
+.item-events_main{}
+.in-item-events_main{}
+.left-item-event_main{}
+.top-item-event_main{}
+.date-item-events_main{}
+.online-item-events_main{}
+.img-item-evets_main{}
+img{}
+.tit-item-events_main{}
+a{}
+p{}
+.cost-events_main{}
+.but-more_red{}
+a{}
+.right-item-event_main{}
+.tit-nmo-event{}
+.item-nmo{}
+.img-item-nmo{}
+img{}
+.name-item-nmo{}
+p{}
+.big-more-but_red{}
+a{}
+
+.b-new_main{}
+.head-news_main{}
+.title{}
+.more-but-title a{}
+.slider-news_main{}
+.slide{}
+.in-slide_news{}
+.img-slide_news{}
+img{}
+.desc-slide_news{}
+.date-slide_news{}
+.tit-slide_news{}
+a{}
+p{}
+
+.block-video_main{}
+.title{}
+.body-video_main{}
+.big-video_main{}
+.img-big-video_main"><a href="#"><
+img src="images_tmp/img-big-video.jpg" alt=""></a></div>
+.text-big-video_main">Повседневная практика показывает, что существующая теория напрямую зависит от укрепления моральных ценностей! Равным образом, разбавленное изрядной долей эмпатии, рациональное мышление требует от нас анализа экспериментов</div>
+.right-block-video_main">
+.list-block-video_main">
+.item-block-video_main">
+.img-block-video_main"><
+img src="images_tmp/ban-rek-video.jpg" alt=""></div>
+.desc-block-video_main">
+<p>Повседневная практика показывает, что существующая теория</p></div>
+.big-more-but_red"><
+a href="#">Перейти</a></div>
+.block-bottom_main">
+.block-projects_main">
+.title">Наши проекты</div>
+.list-projects_main">
+.item-projects_main">
+.img-projects_main"><
+img src="images_tmp/img-proj1.jpg" alt=""></div>
+.body-projects_main">
+.left-projects_main"><div class="img-projects_main"><img src="images_tmp/img-proj3.jpg" alt=""></div></div>
+.right-projects_main">
+.block-state_main">
+.title">Статьи и журналы</div>
+.body-state_main">
+.left-state_main">
+.list-citate_main">
+.item-citate_main">
+.info-citate_main">
+.ava-citate_main"><
+img src="images_tmp/ava-state.jpg" alt=""></div>
+.name-citate_main">Иванов<br> Иван Иванович</div>
+.desc-citate_main">
+.in-desc-citate_main">
+p>Ясность нашей позиции очевидна: внедрение современных методик обеспечивает актуальность анализа существующих паттернов поведения. Принимая во внимание показатели успешности, высококачественный прототип будущего проекта в значительной степени обусловливает важность глубокомысленных рассуждений. Следует отметить, что понимание сути ресурсосберегающих технологий выявляет </p>
+.right_state_main">
+.list-journal_main">
+.item-journal_main">
+.in-item-journal_main">
+p>Учитывая ключевые сценарии поведения, постоянный количественный рост и сфера нашей активности способствует повышению качества модели развития!</p>
+.autor-journal_main">Иванова И.Б, Петрова М.Н, Сидорова М.Н</div>
+.more-subscr_tg {}
+a {}
+span {}
+
+
+footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300px;overflow:hidden;background:#fff;color:#000}
+.cont-f{max-width:1230px;margin:0 auto;padding:34px 15px 24px 15px}
+.footer-left {}
+.menu-f {}
+.menu-f ul {}
+.menu-f li {}
+.menu-f li a {}
+.signat-f {}
+.copy-f {}
+.footer-center {}
+.logo-f {}
+.logo-f img {}
+.soc-f {}
+.soc-f ul {}
+.soc-f li {}
+.soc-f li a {}
+.footer-right {}
+.menu-offert {}
+.menu-offert ul {}
+.menu-offert ul li {}
+.menu-offert ul li a {}
+.rekviz-f {}
+
+
+/*adaptive version*/
+@media screen and (min-width: 999px) {
+
+}
+
+@media screen and (max-width: 999px) {
+	
+}
+/*main-banner*/
