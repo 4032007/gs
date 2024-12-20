@@ -211,28 +211,41 @@ box-shadow: 8px 8px 10px 0px #6965A91A;
 .more-subscr_tg span {}
 
 
-footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300px;overflow:hidden;background:#fff;color:#000}
-.cont-f{max-width:1230px;margin:0 auto;padding:34px 15px 24px 15px}
+footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300px;overflow:hidden;background:#fff;color:#1A1A1A; padding:0 20px 0 20px;}
+.cont-f{max-width:1880px;margin:0 auto;padding:20px 35px 35px 35px;display:flex;    justify-content: space-between;
+
+box-shadow: -4px 34px 34px 0px #0667AE0A;
+
+
+
+}
 .footer-left {}
-.menu-f {}
-.menu-f ul {}
-.menu-f li {}
-.menu-f li a {}
-.signat-f {}
-.copy-f {}
-.footer-center {}
+.menu-f { margin:0 0 32px 0}
+.menu-f ul { list-style-type: none; margin:-10px 0 0 -64px; padding:0; display:flex;}
+.menu-f li { font-size:16px; line-height:19px; font-weight:500; margin:10px 0 0 64px}
+.menu-f li a { text-decoration: underline; color:#1A1A1A}
+.menu-f li a:hover{ text-decoration: none}
+.signat-f { font-size:16px; line-height:19px; color:#1A1A1A; margin:0 0 69px 0; font-weight:500}
+.copy-f { font-size:16px; line-height:19px; font-weight:500}
+.footer-center { display:flex; flex-direction:column}
 .logo-f {}
-.logo-f img {}
-.soc-f {}
-.soc-f ul {}
-.soc-f li {}
-.soc-f li a {}
-.footer-right {}
-.menu-offert {}
-.menu-offert ul {}
-.menu-offert ul li {}
-.menu-offert ul li a {}
-.rekviz-f {}
+.logo-f img { display:block; max-width:100%}
+.soc-f { margin-top:auto}
+.soc-f ul { list-style-type: none; margin:-10px 0 0 -12px; padding:0; display:flex; justify-content:center}
+.soc-f li { margin:10px 0 0 12px; padding:0; line-height: normal}
+.soc-f li a { position: relative; display: flex; justify-content:center; width:40px; height:40px; align-items:center;background: #6965A933; border-radius:50%;box-shadow: 8px 8px 10px 0px #6965A91A}
+.soc-f li a:before{ content:''; display:block}
+.soc-f li.item1 a:before{ background:url(images/soc_f1.svg) no-repeat; width:22px; height:18px;}
+.soc-f li.item2 a:before{ background:url(images/soc_f2.svg) no-repeat; width:26px; height:15px;}
+.soc-f li.item3 a:before{ background:url(images/soc_f3.svg) no-repeat; width:23px; height:24px;}
+.footer-right { max-width:430px; width:430px}
+.menu-offert { margin:0 0 64px 0}
+.menu-offert ul { list-style-type: none; margin:-32px 0 0 -64px; padding:0; display:flex; flex-wrap:wrap; text-align: right; justify-content:flex-end}
+.menu-offert ul li { font-size:16px; line-height:19px; background:none; font-weight:500; background:none; margin:32px 0 0 64px}
+.menu-offert ul li a { color:#1A1A1A; text-decoration: underline}
+.menu-offert ul li a:hover{ text-decoration:none}
+.rekviz-f { font-size:16px; line-height:20px; font-weight:400; text-align: left}
+.rekviz-f b{ font-weight:600}
 
 
 /*adaptive version*/
