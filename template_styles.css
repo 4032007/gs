@@ -87,18 +87,18 @@ box-shadow: 0px 2px 2px 0px #1A1A1A33;
 .item-nums_main.item2, .item-nums_main.item3{ width:calc(47% - 39px); background:#fff; color:#DC7B91}
 .item-nums_main i{ font-style: normal; font-size:60px; line-height:73px; font-weight:600; margin:0 0 5px 0}
 .item-nums_main p{ margin:0; padding:0; font-size:16px; line-height:19px; font-weight:500}
-.block-staff_main{}
-.left-staff_main{}
-.list-staff_main{}
-.item-staff_main{}
-.ava-staff_main{}
-.ava-staff_main img{}
-.item-staff_main p{}
-.decor-staff_main{}
+.block-staff_main{ display:flex; align-items:flex-end; margin-bottom:50px}
+.left-staff_main{ width:calc(40% - 16px)}
+.list-staff_main{ display:flex;justify-content: space-between;}
+.item-staff_main{ text-align:center}
+.ava-staff_main{ margin:0 0 10px 0; width:119px; height:119px; border-radius:50%; display:flex; align-items:center; justify-content:center; overflow:hidden;box-shadow: 0px 2px 2px 0px #00000033}
+.ava-staff_main img{ display:block; margin:0 auto; max-width:100%; max-height:100%; border-radius:50%}
+.item-staff_main p{ font-size:11px; line-height:13px; margin:0; padding:0; font-weight:500}
+.decor-staff_main{ width:calc(60% - 16px); margin-left:auto}
 .in-decor-staff_main{}
-.in-decor-staff_main img{}
-.block-info_main{}
-.block-expert_main{}
+.in-decor-staff_main img{ display:block; width:100%}
+.block-info_main{ display:flex}
+.block-expert_main{border: 1px solid #0667AE40;padding:12px 40px 35px 40px; border-radius:25px; width:calc(67% - 6px)}
 .tit-small_main{}
 .slider-expert_main{}
 .slider-expert_main .slide{}
@@ -108,11 +108,11 @@ box-shadow: 0px 2px 2px 0px #1A1A1A33;
 .die-expert_main{}
 .die-expert_main p{}
 .name-expert_main{}
-.block-online_main{}
-.tit-small_main{}
+.block-online_main{border: 1px solid #0667AE40; padding:12px 48px 35px 48px; border-radius:25px;width:calc(33% - 6px); margin-left:auto}
+.tit-small_main{ font-size:20px; line-height:24px; font-weight:500; margin-bottom:18px; text-align:center}
 .video-online_main{}
 .in-video-online_main{}
-.in-video-online_main img{}
+.in-video-online_main img{ display:block; border-radius:15px; width:100%}
 .but-more_red{}
 .but-more_red a{}
 
