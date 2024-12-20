@@ -30,33 +30,42 @@ table td{padding:10px;border:1px solid #ccc}
 body:first-of-type input[type=text],body:first-of-type input[type=password]{line-height:normal}
 
 .main{overflow:hidden;min-width:300px;flex:1 0 auto}
-.wr-header{position:fixed;top:0;left:0;width:100%;z-index:99;background:#fff;border-bottom:1px solid #efefef}
-header{position:relative;max-width:1230px;padding:0 15px 0 15px;margin:0 auto;display:flex;align-items:center;min-height:83px}
-.rsp{height:83px}
+.wr-header{position:fixed;top:0;left:0;width:100%;z-index:99;}
+header{position:relative;max-width:1920px;padding:0 60px 0 20px;margin:0 auto;display:flex;align-items:center;justify-content: space-between;border-radius:20px;min-height:76px;background:#fff; border:1px solid #e8e8e8;}
+.rsp{height:76px}
 
 
 .logo{}
-.logo img{}
-.search_header{}
+.logo img{ display:block}
+.search_header{ position:relative;}
 .search_header form{}
-.field-search_header{}
-.field-search_header input{}
-.but-search_header{}
-.but-search_header button{}
+.field-search_header{ max-width:288px;}
+.field-search_header input{ width:100%; display:block; border:1px solid #e8e8e8; height:38px; box-shadow: 0px 1px 1px 0px #6965A940; padding:0 10px 0 38px;font-family: "Montserrat", serif; font-size:16px; line-height:18px; border-radius:10px; outline:none;}
+.but-search_header{ position:absolute; top:50%; left:14px; margin:-8px 0 0 0}
+.but-search_header button{ display:block; background:url(images/ico-search.svg) no-repeat; border:none; width:15px; height:16px; outline:none; cursor: pointer;}
 .menu_header{}
-.menu_header ul{}
-.menu_header ul li{}
-.menu_header ul li a{}
+.menu_header ul{ list-style-type: none; margin:0 0 0 -16px; padding:0; display:flex;}
+.menu_header ul li{ font-size:16px; line-height:20px; margin:0 0 0 16px; background:none}
+.menu_header ul li a{ color:#1A1A1A; text-decoration: none}
+.menu_header ul li a:hover{ text-decoration: underline}
+.head-right{ display:flex; align-items:center}
 .soc_header{}
-.soc_header ul{}
-.soc_header ul li{}
-.soc_header ul li a{}
-.phone_header{}
-.phone_header a{}
-.favorite_header{}
-.favorite_header a{}
-.cab_header{}
-.cab_header a{}
+.soc_header ul{ list-style-type: none; display:flex; flex-wrap:wrap; margin:-12px 0 0 -12px}
+.soc_header ul li{ margin:12px 0 0 12px; padding:0; line-height: normal; background:none}
+.soc_header ul li a{ position:relative; display:flex; width:40px; height:40px; text-decoration: none; border-radius:50%;background: #6965A966;
+box-shadow: 8px 8px 10px 0px #6965A91A;
+}
+.soc_header ul li a:before{ position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); content:'';}
+.soc_header ul li.item1 a:before{ width:22px; height:18px; background:url(images/soc-head1.svg) no-repeat}
+.soc_header ul li.item2 a:before{ width:26px; height:15px; background:url(images/soc-head2.svg) no-repeat}
+.soc_header ul li.item3 a:before{ width:23px; height:24px; background:url(images/soc-head3.svg) no-repeat}
+.phone_header{ font-size:16px; line-height:19px; margin:0 0 0 34px}
+.phone_header a{ text-decoration: none; color:#1A1A1A; font-weight:500}
+.favorite_header{ margin:0 0 0 40px}
+.favorite_header a{ width:26px; height:22px; display:block; background:url(images/fav-head.svg) no-repeat}
+.cab_header{ margin:0 0 0 16px; font-size:14px; line-height:17px; font-weight:500}
+.cab_header a{ position:relative; display: inline-flex; background:#f7f7f7; align-items:center; padding:0 8px 0 37px; min-height:38px; color:#1A1A1A; text-decoration: none; border-radius:10px;box-shadow: 0px 2px 2px 0px #0000001A;}
+.cab_header a:before{ position:absolute; top:50%; left:12px; margin:-8px 0 0 0; content:''; display:block; width:16px; height:16px; background:url(images/ico-cab.svg) no-repeat}
 .block-top_main{}
 .about-top_main{}
 .about-top_main p{}
@@ -110,8 +119,8 @@ header{position:relative;max-width:1230px;padding:0 15px 0 15px;margin:0 auto;di
 .select-sort_panel{}
 .select-sort_panel select{}
 .check-sort_panel{}
-input{}
-label{}
+.check-sort_panel input{}
+.check-sort_panel label{}
 .list-events_main{}
 .item-events_main{}
 .in-item-events_main{}
@@ -120,86 +129,86 @@ label{}
 .date-item-events_main{}
 .online-item-events_main{}
 .img-item-evets_main{}
-img{}
+.img-item-evets_main img{}
 .tit-item-events_main{}
-a{}
-p{}
+.tit-item-events_main a{}
+.online-item-events_main p{}
 .cost-events_main{}
 .but-more_red{}
-a{}
+.but-more_red a{}
 .right-item-event_main{}
 .tit-nmo-event{}
 .item-nmo{}
 .img-item-nmo{}
-img{}
+.img-item-nmo img{}
 .name-item-nmo{}
-p{}
+.item-nmo p{}
 .big-more-but_red{}
-a{}
+.big-more-but_red a{}
 
 .b-new_main{}
 .head-news_main{}
-.title{}
+.head-news_main .title{}
 .more-but-title a{}
 .slider-news_main{}
-.slide{}
+.slider-news_main .slide{}
 .in-slide_news{}
 .img-slide_news{}
-img{}
+.img-slide_news img{}
 .desc-slide_news{}
 .date-slide_news{}
 .tit-slide_news{}
-a{}
-p{}
+.tit-slide_news a{}
+.desc-slide_news p{}
 
 .block-video_main{}
-.title{}
+.block-video_main .title{}
 .body-video_main{}
 .big-video_main{}
-.img-big-video_main"><a href="#"><
-img src="images_tmp/img-big-video.jpg" alt=""></a></div>
-.text-big-video_main">Повседневная практика показывает, что существующая теория напрямую зависит от укрепления моральных ценностей! Равным образом, разбавленное изрядной долей эмпатии, рациональное мышление требует от нас анализа экспериментов</div>
-.right-block-video_main">
-.list-block-video_main">
-.item-block-video_main">
-.img-block-video_main"><
-img src="images_tmp/ban-rek-video.jpg" alt=""></div>
-.desc-block-video_main">
-<p>Повседневная практика показывает, что существующая теория</p></div>
-.big-more-but_red"><
-a href="#">Перейти</a></div>
-.block-bottom_main">
-.block-projects_main">
-.title">Наши проекты</div>
-.list-projects_main">
-.item-projects_main">
-.img-projects_main"><
-img src="images_tmp/img-proj1.jpg" alt=""></div>
-.body-projects_main">
-.left-projects_main"><div class="img-projects_main"><img src="images_tmp/img-proj3.jpg" alt=""></div></div>
-.right-projects_main">
-.block-state_main">
-.title">Статьи и журналы</div>
-.body-state_main">
-.left-state_main">
-.list-citate_main">
-.item-citate_main">
-.info-citate_main">
-.ava-citate_main"><
-img src="images_tmp/ava-state.jpg" alt=""></div>
-.name-citate_main">Иванов<br> Иван Иванович</div>
-.desc-citate_main">
-.in-desc-citate_main">
-p>Ясность нашей позиции очевидна: внедрение современных методик обеспечивает актуальность анализа существующих паттернов поведения. Принимая во внимание показатели успешности, высококачественный прототип будущего проекта в значительной степени обусловливает важность глубокомысленных рассуждений. Следует отметить, что понимание сути ресурсосберегающих технологий выявляет </p>
-.right_state_main">
-.list-journal_main">
-.item-journal_main">
-.in-item-journal_main">
-p>Учитывая ключевые сценарии поведения, постоянный количественный рост и сфера нашей активности способствует повышению качества модели развития!</p>
-.autor-journal_main">Иванова И.Б, Петрова М.Н, Сидорова М.Н</div>
+.img-big-video_main{}
+.img-big-video_main img{}
+.text-big-video_main{}
+.right-block-video_main{}
+.list-block-video_main{}
+.item-block-video_main{}
+.img-block-video_main{}
+.img-block-video_main img{}
+.desc-block-video_main{}
+.desc-block-video_main p{}
+.big-more-but_red{}
+.big-more-but_red a{}
+.block-bottom_main{}
+.block-projects_main{}
+.block-projects_main .title{}
+.list-projects_main{}
+.item-projects_main{}
+.img-projects_main{}
+.img-projects_main img{}
+.body-projects_main{}
+.left-projects_main{}
+.right-projects_main{}
+.block-state_main{}
+.block-state_main .title{}
+.body-state_main{}
+.left-state_main{}
+.list-citate_main{}
+.item-citate_main{}
+.info-citate_main{}
+.ava-citate_main{}
+.ava-citate_main img{}
+.name-citate_main{}
+.desc-citate_main{}
+.in-desc-citate_main{}
+.in-desc-citate_main p{}
+.right_state_main{}
+.list-journal_main{}
+.item-journal_main{}
+.in-item-journal_main{}
+.in-item-journal_main p{}
+.autor-journal_main{}
 .more-subscr_tg {}
-a {}
-span {}
+.more-subscr_tg a {}
+.more-subscr_tg span {}
 
 
 footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300px;overflow:hidden;background:#fff;color:#000}
