@@ -2,7 +2,7 @@ $(function(){
 
 
 //selectbox
-	$('.select-form select, .sel-obj-cont select, .item-params-map select').selectbox();		
+	$('.select-sort_panel select').selectbox();		
 	
 //menu
 	$('.menu-tt a').click(function(){
