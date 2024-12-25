@@ -1,6 +1,6 @@
 $(function(){
 //selectbox
-	$('.select-sort_panel select').selectbox();		
+	$('.select-sort_panel select, .sphere-expert select').selectbox();		
 	
 //menu
 	$('.menu-tt a').click(function(){
@@ -28,13 +28,13 @@ $(function(){
 	header();
 
 //sliders
-	$('.slider-main-banner').slick({
+	$('.slider-expert').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: true,
-		arrows: false,
+		arrows: true,
 		fade:true
-	});
+	});	
 	
 	$('.slider-expert_main').slick({
 		slidesToShow: 5,
