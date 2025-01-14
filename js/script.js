@@ -1,6 +1,30 @@
 $(function(){
+//ask
+	$('.head-ask-faq').click(function(){
+		$(this).toggleClass('active').next().toggle()
+		return false;
+	});
+
+	$('.but-change-password a').click(function(){
+		$(this).parent().next().toggle()
+		return false;
+	});	
+	
+	
+//input file
+	const fileInput = document.querySelector('.file-input');
+	if (fileInput) {
+		fileInput.addEventListener('change', function () {
+			const fileLabel = document.querySelector('.file-label');
+			const fileName = this.files.length > 0 ? this.files[0].name : '';
+			if (fileLabel) {
+				fileLabel.innerHTML = fileName;
+			}
+		});
+	}
+
 //selectbox
-	$('.select-sort_panel select, .sphere-expert select').selectbox();		
+	$('.select-sort_panel select, .sphere-expert select, .field-cab select').selectbox();		
 	
 //menu
 	$('.menu-tt a').click(function(){
