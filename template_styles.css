@@ -494,6 +494,111 @@ footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300p
 .body-ask-faq p{font-size:20px;line-height:24px;margin:0 0 15px 0;padding:0}
 .body-ask-faq p:last-child{margin-bottom:0}
 
+/*events*/
+.block-calendar{margin:0 0 73px 0}
+.block-calendar .title{margin:0 0 46px 0}
+.body-calendar{background:#f5f5f5;border-radius:20px}
+.head-calendar{padding:10px 10px 10px 10px;display:flex;align-items:center}
+.tit-calendar{font-size:16px;line-height:20px;font-weight:600;color:#1a1A1AB2}
+.info-calendar{margin-left:auto;display:flex;align-items:center}
+.date-calendar{display:inline-flex}
+.date-calendar input{border:1px solid #c1c1c1;padding:0 5px 0 5px;font-size:12px;color:#1a1A1AB2;font-weight:600;font-family:Montserrat,serif;border-radius:7px;min-height:36px;width:91px;text-align:center;outline:0}
+.toogle-calendar{position:relative;justify-content:center;border-radius:3px;background:#ebebeb;padding:0 32px 0 32px;margin:0 0 0 21px;width:180px;min-height:36px;display:flex;align-items:center;text-align:center}
+.arrow-prev-calendar{position:absolute;cursor:pointer;top:50%;left:19px;margin:-6px 0 0 0;background:url(images/arrow-calendar.svg) no-repeat;width:7px;height:12px}
+.today-calendar{font-size:12px;line-height:14px;font-weight:600;color:#1a1A1AB2}
+.arrow-next-calendar{cursor:pointer;position:absolute;top:50%;right:19px;margin:-6px 0 0 0;background:url(images/arrow-calendar.svg) no-repeat;width:7px;height:12px;transform:rotate(180deg)}
+.checkbox-calendar{margin:0 0 0 21px;min-height:36px;display:flex;align-items:center;background:#e9e9e9;padding:0 3px 0 3px}
+.checkbox-calendar ul{list-style-type:none;margin:0;padding:0;display:flex;align-items:center}
+.checkbox-calendar ul li{position:relative;line-height:normal;background:0 0;margin:0;padding:0}
+.checkbox-calendar ul li input{position:absolute;top:0;left:0;width:1px;height:1px;opacity:0}
+.checkbox-calendar ul li label{display:inline-flex;padding:0 12px 0 12px;cursor:pointer;min-height:30px;align-items:center;font-size:11px;line-height:13px;font-weight:600;color:#c1c1c1}
+.checkbox-calendar ul li input:checked+label{background:#fff;color:#1a1A1AB2}
+.body-calendar-inner{padding:0 44px 0 44px}
+.line-calendar{display:flex;margin:0 0 2px -15px}
+.line-calendar:last-child{margin-bottom:0}
+.day-calendar{display:flex;min-height:58px;background:#fff;padding:3px 5px 3px 5px;width:calc(14.28% - 15px);margin:0 0 0 15px}
+.bottom-calendar{display:flex;align-items:center;padding:11px 19px 18px 22px}
+.add-calendar{font-size:12px;line-height:14px;font-size:12px;line-height:15px;font-weight:600;color:#1a1A1AB2}
+.add-calendar a{display:inline-flex;padding:0 8px 0 8px;min-height:28px;align-items:center;justify-content:center;color:#1a1A1AB2;text-decoration:none;background:#e5e5e5;text-align:center}
+.list-soc-calendar{margin-left:auto}
+.list-soc-calendar ul{list-style-type:none;margin:0;padding:0;display:flex}
+.list-soc-calendar ul li{margin:0 0 0 5px;padding:0;line-height:normal;background:0 0;font-size:20px;line-height:24px;font-weight:600}
+.list-soc-calendar ul li a{display:flex;min-height:30px;width:30px;border-radius:50%;align-items:center;justify-content:center;text-align:center;color:#fdcdc5;background:#fd3e1d;text-decoration:none}
+.name-day{font-size:20px;line-height:24px;font-weight:500;color:#1a1a1a;margin:0 0 0 5px}
+.line-calendar:first-child .day-calendar{display:flex;align-items:center}
+.num-calendar{display:flex;margin-left:auto;width:23px;height:23px;align-items:center;justify-content:center;text-align:center;border-radius:50%;font-size:12px;line-height:14px}
+.day_active .num-calendar{color:#fff;background:red}
+.month-calendar{margin:4px 0 0 0;font-size:10px;line-height:12px;font-weight:400;color:#c1c1c1}
+.holiday-day,.holiday-day .name-day,.past-day{color:#c1c1c1}
+.block-programm-events{display:flex;margin:0 0 70px 0}
+.left-programs-event{width:55.3%;border-radius:20px;background:#fff;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.img-programm-event img{display:block;width:100%;border-radius:20px}
+.desc-programm-event{padding:30px 11px 18px 11px}
+.online-programm-event{position:relative;font-size:15px;margin:0 0 12px 0;padding:0 0 0 16px;line-height:18px;font-weight:400}
+.online-programm-event:before{position:absolute;top:4px;left:0;content:'';display:block;width:10px;height:10px;background:red;border-radius:50%}
+.online-programm-event span{font-weight:500;color:#0667ae}
+.desc-programm-event p{font-size:16px;line-height:19px;margin:0 0 20px 0;padding:0}
+.but-online{font-size:14px;line-height:17px;font-weight:400;text-align:center}
+.but-online a{display:inline-flex;min-width:197px;align-items:center;transition:.2s;justify-content:center;text-align:center;min-height:38px;padding:0 36px 0 36px;border-radius:50px;background:#dc7b91;text-decoration:none;color:#fff;box-shadow:0 1px 1px 0 #1a1A1A4D}
+.but-online a:hover{opacity:.9}
+.right-programs-event{width:42.3%;margin-left:auto;border-radius:20px;padding:30px 0 30px 0;background:#fff;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.tit-programm-event{font-size:24px;line-height:29px;color:#0667ae;font-weight:500;padding:0 20px 0 20px;margin:0 0 20px 0}
+.tab-programm-events{margin:0 0 30px 0}
+.nav-programm-events{padding:0 20px 0 20px;margin:0 0 30px 0}
+.nav-programm-events ul{list-style-type:none;margin:0;padding:0;display:flex}
+.nav-programm-events ul li{flex:1 1 0;padding:0;margin:0 0 0 19px;font-size:15px;line-height:19px;background:0 0;font-size:15px;line-height:18px}
+.nav-programm-events ul li:first-child{margin-left:0}
+.nav-programm-events ul li a{display:flex;min-height:45px;text-decoration:none;color:#1a1a1a;align-items:center;justify-content:center;text-align:center;border-radius:10px;border:1px solid #c1c1c1}
+.nav-programm-events ul li.active a{background:#dc7B9180}
+.tab-programm-events{display:none}
+.tab-programm-events:first-child{display:block}
+.wr-list-programm{position:relative}
+.list-programm-events{position:relative;max-height:500px;overflow-y:auto;margin-right:4px;padding-bottom:50px}
+.wr-list-programm:before{position:absolute;bottom:0;left:0;pointer-events:none;width:100%;z-index:5;height:50px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 100%);content:''}
+.list-programm-events::-webkit-scrollbar{background-color:#fff;width:5px}
+.list-programm-events::-webkit-scrollbar-thumb{background-color:#0667ae;border-radius:5px}
+@-moz-document url-prefix() {
+.list-programm-events{scrollbar-color:#0083CC #fff;scrollbar-width:thin}
+}
+.item-programm-events{padding:0 20px 0 20px;margin:0 0 30px 0;display:flex}
+.item-programm-events:last-child{margin-bottom:0}
+.info-programm-event{border-top:1px solid #dc7b91;padding:8px 0 0 0;margin-right:65px;min-width:95px}
+.info-programm-event span{display:block;font-size:18px;line-height:22px;margin:0 0 4px 0;font-weight:600;color:#dc7b91}
+.info-programm-event i{display:block;font-style:normal;font-size:12px;line-height:14px;font-weight:400}
+.desc-list-programm-event{border-top:1px solid #dc7b91;padding:8px 0 0 0}
+.desc-list-programm-event p{margin:0 0 15px 0;padding:0;font-size:12px;line-height:14px}
+.desc-list-programm-event p:last-child{margin-bottom:0}
+.but-view-event{font-size:11px;line-height:13px;font-weight:400;text-align:center;margin:30px 0 0 0}
+.but-view-event a{display:inline-flex;align-items:center;transition:.2s;justify-content:center;text-align:center;min-height:30px;min-width:145px;padding:0 12px 0 12px;border-radius:50px;background:#dc7b91;text-decoration:none;color:#fff;box-shadow:0 1px 1px 0 #1a1A1A4D}
+.but-view-event a:hover{opacity:.9}
+.but-reg-event{font-size:11px;line-height:13px;font-weight:400;text-align:center;margin:30px 0 0 0}
+.but-reg-event a{display:inline-flex;align-items:center;transition:.2s;justify-content:center;text-align:center;min-height:30px;min-width:145px;padding:0 12px 0 12px;border-radius:50px;text-decoration:none;background:#fff;border:1px solid #dc7b91;color:#1a1a1a;box-shadow:0 1px 1px 0 #1a1A1A4D}
+.but-reg-event a:hover{opactiy:1;background:#dc7b91;color:#fff}
+.content .block-events_main:last-child{margin-bottom:0}
+
+/*card events*/
+.wr-block-events .title{ margin-bottom:40px}
+.wr-block-events:last-child{ margin-bottom:0}
+
+.top-card-events { position:relative; display:flex; margin:0 0 53px 0}
+.reg-card-events { position:relative; width:63.95%}
+.reg-card-events img { display:block; border-radius:20px; width:100%}
+
+.but-reg-events{ position:absolute; bottom:20px; right:20px;font-size:20px;line-height:24px;font-weight:500;text-align:center;margin:0}
+.but-reg-events a{display:inline-flex;align-items:center;transition:.2s;justify-content:center;text-align:center;min-height:49px;min-width:342px;padding:0 12px 0 12px;border-radius:20px;background:#dc7b91;text-decoration:none;color:#fff;box-shadow:0 1px 1px 0 #1a1A1A4D}
+.but-reg-events a:hover{ background:#df889c}
+
+
+.block-time-reg { width:35.46%; display:flex; flex-direction:column; margin-left:auto; padding:28px 24px 25px 25px; border-radius:20px;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.buts-event-reg { margin:0 0 28px 0}
+.buts-event-reg ul{ list-style-type: none; margin:0 0 0 -12px; padding:0; display:flex}
+.buts-event-reg li { margin:0 0 0 12px; padding:0; display: flex; height:60px; width:100%; font-size:20px; line-height:24px;}
+.buts-event-reg li span {display:flex; min-height:60px; width:100%; align-items:center; justify-content:center; white-space:nowrap; padding:0 15px 0 15px; text-decoration: none; color:#1A1A1A; border:1px solid #0667AE; border-radius:20px}
+.buts-event-reg li a { display:flex; min-height:60px; width:100%; align-items:center; justify-content:center; white-space:nowrap; padding:0 15px 0 15px; text-decoration: none; color:#1A1A1A; border:1px solid #0667AE; border-radius:20px}
+.adress-event-reg { font-size:20px; line-height:24px; margin-bottom:10px; display:flex; align-items:center; padding:0 10px 0 10px; justify-content:center; text-align:center;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08); min-height:94px; border-radius:20px}
+.bot-events-reg { display: flex; margin-top:auto}
+.price-event-reg { font-size:15px; line-height:18px;}
+.bot-events-reg .ico-review { position:relative; padding-left:16px; top:auto; left:auto; bottom:auto; margin-left:auto; right:auto; display:flex; align-items:center}
 
 /*general style*/
 .block-top_main, .block-staff_main, .block-info_main, .block-events_main, .b-news_main, .block-video_main, .block-bottom_main, .content { max-width:1750px; padding:0 15px 0 15px; margin-left:auto; margin-right:auto}
