@@ -108,6 +108,32 @@ $(function(){
 	}
 	]
 	});
+	
+	
+	$('.slider-over-events').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		fade:false,
+	responsive: [
+	{
+	  breakpoint: 999,
+	  settings: {
+		slidesToShow: 3,
+		slidesToScroll: 1,
+	  }
+	},
+	{
+	  breakpoint: 767,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1
+	  }
+	}
+	]
+	});
+
 
 //tabs
 	$('.tabs-tb').each(function(){
