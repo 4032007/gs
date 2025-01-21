@@ -128,8 +128,8 @@ header{position:relative;max-width:1920px;padding:0 60px 0 20px;margin:0 auto;di
 .select-sort_panel .selectbox li:last-child{margin-bottom:0}
 .select-sort_panel .selectbox li:hover{background:#dc7B9180}
 .check-sort_panel{position:relative;margin:0 0 0 20px}
-.check-sort_panel input{position:absolute;top:0;left:0;widht:1px;height:1px;opacity:0}
-.check-sort_panel label{position:relativee;display:inline-flex;min-height:23px;font-size:11px;line-height:13px;cursor:pointer;box-shadow:2px 5px 5px 0 #b57DAC26;text-decoration:none;border:none;border-radius:20px;text-decoration:none;color:#1a1a1a;align-items:center;padding:0 21px 0 21px;justify-content:center;text-align:center}
+.check-sort_panel input{position:absolute;top:0;left:0;width:1px;height:1px;opacity:0}
+.check-sort_panel label{position:relative;display:inline-flex;min-height:23px;font-size:11px;line-height:13px;cursor:pointer;box-shadow:2px 5px 5px 0 #b57DAC26;text-decoration:none;border:none;border-radius:20px;text-decoration:none;color:#1a1a1a;align-items:center;padding:0 21px 0 21px;justify-content:center;text-align:center}
 .check-sort_panel label:before{position:absolute;top:50%;left:8px;margin:-5px 0 0 0;box-sizing:border-box;width:9px;height:9px;content:'';display:block;border:1px solid #0667ae}
 .check-sort_panel label:after{position:absolute;top:50%;left:10px;margin:-3px 0 0 0;background:#dc7b91;box-sizing:border-box;width:5px;height:5px;content:'';display:none;border:none}
 .check-sort_panel input:checked+label:after{display:block}
@@ -573,7 +573,7 @@ footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300p
 .but-view-event a:hover{opacity:.9}
 .but-reg-event{font-size:11px;line-height:13px;font-weight:400;text-align:center;margin:30px 0 0 0}
 .but-reg-event a{display:inline-flex;align-items:center;transition:.2s;justify-content:center;text-align:center;min-height:30px;min-width:145px;padding:0 12px 0 12px;border-radius:50px;text-decoration:none;background:#fff;border:1px solid #dc7b91;color:#1a1a1a;box-shadow:0 1px 1px 0 #1a1A1A4D}
-.but-reg-event a:hover{opactiy:1;background:#dc7b91;color:#fff}
+.but-reg-event a:hover{opacity:1;background:#dc7b91;color:#fff}
 .content .block-events_main:last-child{margin-bottom:0}
 
 /*card events*/
