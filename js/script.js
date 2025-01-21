@@ -1,4 +1,29 @@
 $(function(){
+	
+	$('.slider-coms-about').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		fade:false,
+	responsive: [
+	{
+	  breakpoint: 999,
+	  settings: {
+		slidesToShow: 3,
+		slidesToScroll: 1,
+	  }
+	},
+	{
+	  breakpoint: 767,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1
+	  }
+	}
+	]
+	});	
+	
 //ask
 	$('.head-ask-faq').click(function(){
 		$(this).toggleClass('active').next().toggle()
