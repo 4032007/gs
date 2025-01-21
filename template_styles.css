@@ -642,6 +642,81 @@ footer{min-width:300px;flex:0 0 auto;width:100%;position:relative;min-width:300p
 .big-arrow .slick-next:hover{background:#b57dac}
 .big-arrow .slick-next:before{top:10px;left:15px;transform:none;margin:0;background:url(images/arrow-news_next.svg) no-repeat;width:33px;height:41px}
 
+/*about*/
+.list-benef-about{display:flex;flex-wrap:wrap;margin:-47px 0 45px -47px}
+.item-benef-about{width:calc(20% - 47px);margin:47px 0 0 47px;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08);border-radius:20px}
+.in-item-benef-about{border-radius:20px;padding:30px 10px 17px 10px;text-align:center;box-shadow:0 0 10px 0 #0567AE26}
+.ico-benef-about{margin:0 0 10px 0}
+.ico-benef-about img{display:block;margin:0 auto;max-width:100%}
+.in-item-benef-about p{margin:0;padding:0}
+.simple-text-page-about{font-size:26px;line-height:39px;margin:0 0 47px 0}
+.simple-text-page-about b{font-weight:500;color:#0667ae}
+.block-info-about{display:flex;flex-wrap:wrap;margin:0 0 40px 0;background:url(images/back-year.jpg) right 45% no-repeat}
+.left-info-about{width:42%;display:flex;flex-direction:column}
+.wr-year-info-about{margin:0 0 30px 0;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.year-info-about{border-radius:20px;background:#fff;padding:30px;text-align:center;box-shadow:0 0 10px 0 #0567AE26}
+.year-info-about p{font-size:30px;line-height:36px;max-width:564px;margin-left:auto;margin-right:auto}
+.year-info-about p:last-child{margin-bottom:0}
+.num-info-about{font-size:64px;line-height:78px;font-weight:600;color:#0667ae}
+.bot-text-info-about{margin-top:auto;font-size:26px;line-height:39px}
+.right-info-about{width:50%;margin-left:auto;display:flex;flex-direction:column;padding:60px 0 0 0}
+.right-info-about p{font-size:30px;line-height:52px;text-align:center;max-width:610px;margin-left:auto;margin-right:auto;margin-bottom:30px}
+.right-info-about .big-more-but_red{margin:0;font-weight:500}
+.right-info-about .big-more-but_red a{min-width:605px;min-height:66px}
+.content .block-info_main{padding-left:0;padding-right:0}
+.block-online_main{padding-bottom:16px}
+.block-online_main2 .but-more_red{display:block;text-align:center;margin-top:20px;font-size:16px}
+.block-online_main2 .but-more_red a{display:inline-flex;padding:0 15px 0 15px;min-width:227px;min-height:39px}
+.block-online_main2 .video-online_main{max-width:397px;margin-left:auto;margin-right:auto}
+.text-page-about{font-size:30px;line-height:37px;margin:0 0 60px 0}
+.text-page-about b{font-weight:500;color:#0667ae}
+.b-coms-about{margin:0 0 101px 0}
+.b-coms-about .title{margin:0 0 40px 0}
+.list-coms-about{margin:0}
+.list-coms-about .slick-prev{left:-40px}
+.list-coms-about .slick-next{right:-40px}
+.item-coms-about{position:relative;padding:0 5px 0 5px}
+.item-coms-about:before{position:absolute;top:0;left:0;content:'';display:block;width:2px;height:100%;background:linear-gradient(90deg,rgba(220,123,145,.25) 0,rgba(6,103,174,.25) 46.5%,rgba(6,103,174,.25) 58.5%,rgba(220,123,145,.25) 100%)}
+.in-coms-about{padding:0 0 12px 8px}
+.head-coms-about{margin:0 0 34px 0;display:flex;align-items:center}
+.img-coms-about{width:69px;min-width:69px;margin:0 16px 0 0}
+.img-coms-about img{display:block;max-width:100%;border-radius:50%}
+.desc-info-about{font-size:14px;line-height:17px}
+.desc-info-about i{display:block;font-style:normal;margin:0 0 8px 0;font-size:16px;line-height:20px}
+.in-coms-about p{font-size:16px;line-height:20px;margin:0;padding:0;font-weight:300}
+.menu-about{display:flex;flex-wrap:wrap;margin:-12px 0 70px -12px}
+.item-menu-about{width:calc(25% - 12px);margin:12px 0 0 12px;font-size:26px;line-height:39px;border-radius:20px;background:#fff;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.item-menu-about a{position:relative;padding:163px 10px 0 10px;color:#1a1a1a;justify-content:center;border-radius:20px;background:#fff;box-shadow:-4px 0 20px 0 rgba(6,103,174,.2);text-align:center;text-decoration:none;display:flex;min-height:250px}
+.item-menu-about i{position:absolute;top:5px;left:50%;transform:translateX(-50%);font-style:normal}
+.item-menu-about i img{display:block}
+.item-menu-about.item1 i{margin:0 0 0 -17px}
+.item-menu-about.item2 i{margin:0 0 0 -20px}
+.item-menu-about.item3 i{margin:0 0 0 -25px}
+.item-menu-about.item4 i{top:20px;margin:0 0 0 -5px}
+.b-projects-about{margin:0 0 70px 0}
+.b-projects-about .title{margin:0 0 40px 0}
+.list-projects-about{display:flex;margin:0 -7px 0 -7px}
+.item-projects-about{padding:0 7px 0 7px}
+.img-proj-about{margin:0 0 20px 0}
+.img-proj-about img{display:block;width:100%;border-radius:20px}
+.tit-proj-about{font-size:26px;line-height:32px;text-align:center}
+.tit-proj-about a{color:#1a1a1a;text-decoration:none}
+.head-block-more{display:flex;flex-wrap:wrap;align-items:baseline;margin:0 0 40px 0}
+.head-block-more .title{margin:0 10px 0 0}
+.more-link-block{font-size:17px;line-height:21px}
+.more-link-block a{color:#1a1A1A80}
+.top-page-about{display:flex;margin:0 0 40px 0}
+.video-top-about{width:calc(50% - 6px)}
+.video-top-about a{display:block;position:relative}
+.video-top-about img{display:block;width:100%;border-radius:20px;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08)}
+.nums-top-about{width:calc(50% - 6px);margin-left:auto;display:flex}
+.list-nums-top-about{display:flex;flex-wrap:wrap;margin:0 0 0 -13px;height:100%;min-height:100%}
+.in-nums-top-ab{border-radius:20px;background:#fff;box-shadow:0 -2px 8px 0 #0567AE26;height:100%;min-height:216px;display:flex;text-align:center;justify-content:center;flex-direction:column;align-items:center}
+.item-nums-top-about{width:calc(50% - 13px);margin:0 0 10px 13px;box-shadow:-4px 25px 40px 0 rgba(6,103,174,.08);border-radius:20px}
+.item-nums-top-about:last-child{width:calc(100% - 13px);margin-top:auto;margin-bottom:0}
+.item-nums-top-about i{font-style:normal;font-size:64px;line-height:78px;color:#0667ae;font-weight:600;margin:0 0 20px 0}
+.item-nums-top-about p{margin:0;padding:0;font-size:20px;line-height:24px;color:#1a1a1a;font-weight:500}
+
 /*general style*/
 .block-top_main, .block-staff_main, .block-info_main, .block-events_main, .b-news_main, .block-video_main, .block-bottom_main, .content { max-width:1750px; padding:0 15px 0 15px; margin-left:auto; margin-right:auto}
 .content{padding-top:21px; padding-bottom:70px}
