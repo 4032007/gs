@@ -24,7 +24,7 @@
 .slick-prev:before{position:absolute;transform:rotate(180deg);top:50%;left:50%;margin:-8px 0 0 -4px;content:'';background:url(../images/arrow-slider.svg) no-repeat;width:9px;height:15px}
 .slick-next{position:absolute;right:-35px;top:50%;z-index:80;margin-top:-16px;z-index:70;border:0;background:#b57DAC59;width:0;height:32px;padding:0 0 0 32px;overflow:hidden;transform:rotate(180deg);display:block;outline:0;cursor:pointer;border-radius:50%}
 .slick-next:before{position:absolute;top:50%;left:50%;margin:-8px 0 0 -5px;content:'';background:url(../images/arrow-slider.svg) no-repeat;width:9px;height:15px}
-.slick-next:hover,.slick-prev:hover{background:#b57dac}
+.slick-next:hover,.slick-prev:hover{background:#0667AE59}
 .slick-next.slick-disabled{background:#ededf0;box-shadow:none;pointer-events:none}
 .slick-prev.slick-disabled{background:#ededf0;box-shadow:none;pointer-events:none}
 .fix-load{visibility:hidden;opacity:0;transition:opacity .5s}
@@ -34,5 +34,5 @@
 .fix-load.slick-initialized .slide{display:block;visibility:visible!important}
 
 @media screen and (min-width:999px){
-	.slick-dots li button:hover{background:#ff5338}
+	.slick-dots li button:hover{background:#0667AE}
 }
