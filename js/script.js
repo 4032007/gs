@@ -8,7 +8,57 @@ $(function(){
 		fade:false,
 	responsive: [
 	{
-	  breakpoint: 999,
+	  breakpoint: 1860,
+	  settings: {
+		slidesToShow: 3,
+		slidesToScroll: 1,
+	  }
+	},
+	{
+	  breakpoint: 1400,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1
+	  }
+	}
+	]
+	});	
+	
+	
+	$('.slider-expert_main').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		fade:false,
+	responsive: [
+	{
+	  breakpoint: 1400,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1,
+	  }
+	},
+	{
+	  breakpoint: 767,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1
+	  }
+	}
+	]
+	});
+	
+//slider news
+	$('.slider-news_main').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		fade:false,
+	responsive: [
+	{
+	  breakpoint: 1400,
 	  settings: {
 		slidesToShow: 3,
 		slidesToScroll: 1,
@@ -22,7 +72,52 @@ $(function(){
 	  }
 	}
 	]
+	});
+	
+	$('.slider-events_mob_960').slick({
+		dots: false,
+		arrows:true,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		mobileFirst: true,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: 'unslick'
+			},
+		{
+		  breakpoint: 1400,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1
+		  }
+		}
+		]
 	});	
+	
+	$('.slider-over-events').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		fade:false,
+	responsive: [
+	{
+	  breakpoint: 1400,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1,
+	  }
+	},
+	{
+	  breakpoint: 767,
+	  settings: {
+		slidesToShow: 2,
+		slidesToScroll: 1
+	  }
+	}
+	]
+	});
 	
 //ask
 	$('.head-ask-faq').click(function(){
@@ -49,7 +144,7 @@ $(function(){
 	}
 
 //selectbox
-	$('.select-sort_panel select, .sphere-expert select, .field-cab select').selectbox();		
+	$('.select-sort_panel select, .sphere-expert select, .field-cab select, .sel-choice-profile select').selectbox();		
 	
 //menu
 	$('.menu-tt a').click(function(){
@@ -83,81 +178,10 @@ $(function(){
 		dots: true,
 		arrows: true,
 		fade:true
-	});	
-	
-	$('.slider-expert_main').slick({
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		dots: false,
-		arrows: true,
-		fade:false,
-	responsive: [
-	{
-	  breakpoint: 999,
-	  settings: {
-		slidesToShow: 3,
-		slidesToScroll: 1,
-	  }
-	},
-	{
-	  breakpoint: 767,
-	  settings: {
-		slidesToShow: 2,
-		slidesToScroll: 1
-	  }
-	}
-	]
-	});
-	
-//slider news
-	$('.slider-news_main').slick({
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		dots: false,
-		arrows: true,
-		fade:false,
-	responsive: [
-	{
-	  breakpoint: 999,
-	  settings: {
-		slidesToShow: 3,
-		slidesToScroll: 1,
-	  }
-	},
-	{
-	  breakpoint: 767,
-	  settings: {
-		slidesToShow: 2,
-		slidesToScroll: 1
-	  }
-	}
-	]
 	});
 	
 	
-	$('.slider-over-events').slick({
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		dots: false,
-		arrows: true,
-		fade:false,
-	responsive: [
-	{
-	  breakpoint: 999,
-	  settings: {
-		slidesToShow: 3,
-		slidesToScroll: 1,
-	  }
-	},
-	{
-	  breakpoint: 767,
-	  settings: {
-		slidesToShow: 2,
-		slidesToScroll: 1
-	  }
-	}
-	]
-	});
+
 
 
 //tabs
