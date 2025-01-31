@@ -31,6 +31,7 @@
                     </form>
                 </div>
                 <div class="menu_header">
+                	<div class="close-menu-mob"></div>
                 	<ul>
                         <li><a href="#">О нас</a></li>
                         <li><a href="#">Мероприятия</a></li>
@@ -39,6 +40,13 @@
                         <li><a href="#">Вопросы</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul>
+                    <div class="soc_header">
+                        <ul>
+                            <li class="item1"><a target="_blank" href="#"></a></li>
+                            <li class="item2"><a target="_blank" href="#"></a></li>
+                            <li class="item3"><a target="_blank" href="#"></a></li>
+                        </ul>
+                    </div> 
                 </div>
                 <div class="head-right">
                     <div class="soc_header">
@@ -51,6 +59,10 @@
                     <div class="phone_header"><a href="tel:+79508456589">+7 950 845-65-89</a></div>
                     <div class="favorite_header"><a href="#"></a></div>
                     <div class="cab_header"><a href="#"><i>Личный кабинет</i></a></div>
+                </div>
+                
+                <div class="menu-tt">
+                    <a class="menu-but" href="#"><span></span></a>
                 </div>
             </header>
         </div>
@@ -109,6 +121,7 @@
                     <div>
                     	
                     <picture>
+                    	<source srcset="images/decor-staff_640.png?58588556588888" media="(max-width: 960px)">
                         <source srcset="images/decor-staff_960.png?58588556588888" media="(max-width: 1399px)">
                         <img src="images/decor-staff.png" alt="">
                     </picture>
@@ -231,6 +244,125 @@
             	<div class="left-head_main">
             		<div class="title">Мероприятия</div>
                     <div class="more-but-title"><a href="#">Смотреть все</a></div>
+                    <div class="but-filter_mob"></div>
+                    <div class="panel-filters-event_mob">
+                        <div class="in-panel-filters-event_mob">
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Анонсы</div>
+                                <div class="switch-event">
+                                    <input id="filter1" type="checkbox">
+                                    <label for="filter1"></label>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Прошедшие</div>
+                                <div class="switch-event">
+                                    <input id="filter2" checked type="checkbox">
+                                    <label for="filter2"></label>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Выбрать специальность</div>
+                                <div class="list-check-filters_mob">
+                                    <ul>
+                                        <li>
+                                            <input id="line-check1" type="checkbox">
+                                            <label for="line-check1">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check2" checked type="checkbox">
+                                            <label for="line-check2">Длинное название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check3" type="checkbox">
+                                            <label for="line-check3">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check4" type="checkbox">
+                                            <label for="line-check4">Длинное название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check5" type="checkbox">
+                                            <label for="line-check5">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check6" type="checkbox">
+                                            <label for="line-check6">Длинное название</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">НМО</div>
+                                <div class="switch-event">
+                                    <input id="filter3" checked type="checkbox">
+                                    <label for="filter3"></label>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Выбрать цикл</div>
+                                <div class="list-check-filters_mob">
+                                    <ul>
+                                        <li>
+                                            <input id="line-check1-2" type="checkbox">
+                                            <label for="line-check1-2">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check2-2" checked type="checkbox">
+                                            <label for="line-check2-2">Длинное название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check3-2" type="checkbox">
+                                            <label for="line-check3-2">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check4-2" type="checkbox">
+                                            <label for="line-check4-2">Длинное название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check5-2" type="checkbox">
+                                            <label for="line-check5-2">Название</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check6-2" type="checkbox">
+                                            <label for="line-check6-2">Длинное название</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Формат</div>
+                                <div class="list-check-filters_mob">
+                                    <ul>
+                                        <li>
+                                            <input id="line-check1-3" type="checkbox">
+                                            <label for="line-check1-3">Онлайн</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check2-3" checked type="checkbox">
+                                            <label for="line-check2-3">Оффлайн</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="line-filters-event_mob">
+                                <div class="tit-filters-event_mob">Стоимость</div>
+                                <div class="list-check-filters_mob">
+                                    <ul>
+                                        <li>
+                                            <input id="line-check1-4" type="checkbox">
+                                            <label for="line-check1-4">Платно</label>
+                                        </li>
+                                        <li>
+                                            <input id="line-check2-3" checked type="checkbox">
+                                            <label for="line-check2-4">Бесплатно</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> 
                 </div>
                 
                 <div class="panel-sort-events">
@@ -533,7 +665,7 @@
                     </div>
                 </div>
                 
-            	<div class="slide">
+            	<div class="slide slide-ban_news">
                 	<img src="images_tmp/ban-rek_news.jpg" alt="">
                 </div>
                 
@@ -570,6 +702,9 @@
                     </div>
                 </div> 
             </div>
+            
+            <div class="banner-news_mob"><a href="#"><img src="images_tmp/banner-news_mob.jpg" alt=""></a></div>
+            <div class="more-but-title more-news_mob"><a href="#">Смотреть все</a></div>
         </div>
         
         <div class="block-video_main">
